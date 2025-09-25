@@ -98,4 +98,51 @@ Expected output:
 
 51
 
+The provided string literal is invalid and will cause a SyntaxError. 
+There are three common ways to fix this, using either an escape character, double quotes, or backticks. 
+
+let someString = 'Who once said, "Only two things are infinite, the universe and human stupidity, and I\'m not sure about the former."';
+console.log(someString);
+
+let myNullVariable = null;
+console.log(myNullVariable);
+
+// Return "string"
+console.log(typeof "Hello, world!");
+
+// Return "number"
+console.log(typeof 123);
+
+// Return "boolean"
+console.log(typeof true);
+
+// Return "object"
+console.log(typeof null); // A known quirk; null returns "object"
+console.log(typeof [1, 2, 3]); // Arrays are a type of object
+console.log(typeof {});
+
+// Return "undefined"
+console.log(typeof undefinedVariable);
+
+let studentName = "Sreedhar Narla";
+
+alert("Hello " + studentName + ", welcome to the JavaScript class!");
+
+let name = "Sreedhar Narla";
+alert("Hello " + name + ", welcome to the JavaScript class!");
+
+let name = "Sreedhar Narla";
+let course = "JavaScript";
+
+alert(`Hello ${name}, welcome to the ${course} class!`);
+
+let name = "Sreedhar Narla";
+let course = "JavaScript";
+
+alert("Hello " + name + ".\n" + "Welcome to the " + course + " class!");
+
+
+
+
+
 
